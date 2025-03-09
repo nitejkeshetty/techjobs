@@ -15,7 +15,7 @@
       .logo {
         background-color: white;
         height: 60%;
-        margin-left: 200px;
+        margin-left: 180px;
       }
       .navIcons {
         color: #526a6e;
@@ -51,6 +51,47 @@
         margin-left: 10px;
         padding-left: 20px;
         padding-right: 20px;
+      }
+      .heading {
+        color: #526a6e;
+        font-size: 48px;
+        font-weight: 400;
+      }
+      .googleBtn {
+        background-color: #0a66c2;
+        color: white;
+        padding: 2px;
+        border: none;
+        border-radius: 20px;
+        padding-inline: 110px;
+        font-weight: 600;
+      }
+      .msBtn {
+        background-color: white;
+        padding: 2px;
+        border: 1px solid black;
+        border-radius: 20px;
+        padding-inline: 103px;
+        font-weight: 600;
+        display: block;
+        margin-top: 10px;
+      }
+      .container {
+        margin-left: 180px;
+        margin-top: 80px;
+      }
+      .landingImage {
+        margin-left: 810px;
+        margin-top: -350px;
+        width: 700px;
+      }
+      .privacyText {
+        color: rgba(0, 0, 0, 0.6);
+        font-size: 12px;
+        margin-top: 24px;
+      }
+      span {
+        color: #0a66c2;
       }
     </style>
   </head>
@@ -128,5 +169,53 @@
         <button class="signBtn">Sign in</button>
       </div>
     </header>
+    <div class="container">
+      <h1 class="heading">
+        Welcome to your <br />
+        professional community
+      </h1>
+      <button class="googleBtn">
+        <i
+          class="fa-brands fa-google"
+          style="
+            padding: 8px;
+            background-color: white;
+            border-radius: 15px;
+            color: black;
+            font-size: large;
+          "
+        ></i>
+        Continue with Google
+      </button>
+      <button class="msBtn">
+        <i
+          class="fa-brands fa-microsoft"
+          style="
+            padding: 8px;
+            background-color: white;
+            border-radius: 15px;
+            color: black;
+            font-size: large;
+          "
+        ></i>
+        Continue with Microsoft
+      </button>
+      <p class="privacyText">
+        By clicking Continue to join or sign in, you agree to LinkedIn’s
+        <span
+          >User
+          <br />
+          Agreement, Privacy Policy,</span
+        >
+        and <span>Cookie Policy.</span>
+      </p>
+      <p style="margin-top: 20px; margin-left: 100px">
+        New to linkedin? <span>Join now</span>
+      </p>
+    </div>
+    <img
+      src="https://static.licdn.com/aero-v1/sc/h/dxf91zhqd2z6b0bwg85ktm5s4"
+      class="landingImage"
+    />
   </body>
 </html>
