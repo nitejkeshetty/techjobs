@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+}
+
+.navbar {
+    display: flex;
+    padding: 10px;
+}
+
+.icons {
+    color: white;
+    padding: 3px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.logo {
+    height: 20px;
+    width: 90px;
+    margin-left: 20px;
+
+}
